@@ -1,0 +1,23 @@
+{
+  "name": "patient-zero",
+  "version": "0.0.0",
+  "description": "A Zombie.js web crawler. Point it at your sitemap / homepage and it'll spread through your site, giving you a list of all client-side errors it encounters. I built a first version of this as a smoke test for some legacy code. ",
+  "main": "crawler.js",
+  "dependencies": {
+    "zombie": "~2.0.0-alpha21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaseyLeask/patient-zero.git"
+  },
+  "keywords": [
+    "web-crawler",
+    "zombiejs"
+  ],
+  "author": "Casey Leask",
+  "license": "MIT"
+}
