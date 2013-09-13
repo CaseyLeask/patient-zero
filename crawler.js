@@ -1,5 +1,5 @@
-var Browser = require("zombie");
+var zombie = require("zombie");
 var args = process.argv.splice(2);
 
-Browser.visit(args[0], function() {
+zombie.visit(args[0], function() {
 });
