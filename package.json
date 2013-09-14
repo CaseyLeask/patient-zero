@@ -6,7 +6,9 @@
   "dependencies": {
     "zombie": "~2.0.0-alpha21"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "~3.4.0"
+  },
   "scripts": {
     "test": "node test/lab.js"
   },
