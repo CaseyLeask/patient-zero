@@ -8,10 +8,11 @@
   },
   "devDependencies": {
     "express": "~3.4.0",
+    "mocha": "~1.12.1",
     "assert": "~0.4.9"
   },
   "scripts": {
-    "test": "node test/lab.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
