@@ -9,7 +9,7 @@
   "devDependencies": {
     "express": "~3.4.0",
     "mocha": "~1.12.1",
-    "assert": "~0.4.9"
+    "chai": "~1.7.2"
   },
   "scripts": {
     "test": "mocha"

@@ -1,6 +1,7 @@
 var Express = require('express');
-var Zombie = require("zombie");
-var Assert = require("assert");
+var Zombie = require('zombie');
+require('chai').should();
+
 var express, brains;
 
 describe('Zombie', function() {
@@ -13,7 +14,7 @@ describe('Zombie', function() {
 
   it('should follow a link and harvest the contents', function(done) {
     Zombie.visit("http://localhost:3000/", function (e, zombie) {
-      Assert.ok(zombie.html().indexOf('brains') >= 0);
+      zombie.html().indexOf('brains').should.be.above(-1);
       done();
     });
   });
