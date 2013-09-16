@@ -8,4 +8,9 @@ Installation
 
 Install Zombie.js http://zombie.labnotes.org/#Infection
 
-Run the command `node crawler.js`
+Run the command `node crawler.js http://path.to/page.html`
+
+Testing
+=======
+
+Run the command `npm test`
