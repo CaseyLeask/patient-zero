@@ -1,5 +1,3 @@
-var zombie = require("zombie");
-var args = process.argv.splice(2);
+var Patient_zero = require("lib/patient_zero");
 
-zombie.visit(args[0], function() {
-});
+Patient_zero.crawl(process.argv.splice(2));
