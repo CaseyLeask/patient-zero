@@ -4,7 +4,7 @@
   "description": "A Zombie.js web crawler. Point it at your sitemap / homepage and it'll spread through your site, giving you a list of all client-side errors it encounters. I built a first version of this as a smoke test for some legacy code. ",
   "main": "crawler.js",
   "dependencies": {
-    "zombie": "~2.0.0-alpha21"
+    "zombie": "1.4.1"
   },
   "devDependencies": {
     "express": "~3.4.0",
