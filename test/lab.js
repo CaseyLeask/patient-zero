@@ -7,7 +7,7 @@ require('chai').should();
 
 var express, brains;
 
-describe('Zombie', function() {
+describe('Patient Zero', function() {
   it('should follow a link and harvest the contents', function(done) {
     express = Express();
     brains = express.get('/', function(req, res){
