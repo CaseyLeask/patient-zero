@@ -9,12 +9,15 @@ var express, brains;
 
 describe('Patient Zero', function() {
   it('should follow a link and harvest the contents', function(done) {
-    express = Express();
-    brains = express.get('/', function(req, res){
-        res.send('here be brains');
-        brains.close();
+    room = Express();
+    room.get('/', function(req, res) {
+        res.send('<a href="/brains">here be brains</a>');
+    });
+    room.get('/brains', function(req, res) {
+        res.send('white/grey matter');
         done();
-    }).listen(3000);
+    });
+    room.listen(3000);
     Patient_zero.crawl(url);
   });
 });
