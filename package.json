@@ -9,7 +9,7 @@
   "devDependencies": {
     "chai": "~1.7.2",
     "express": ">=3.11.0",
-    "mocha": "^6.2.3",
+    "mocha": "^10.2.0",
     "whatwg-url": "^8.0.0"
   },
   "scripts": {
